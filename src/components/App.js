@@ -50,8 +50,9 @@ function App() {
       </p>
       <br />
       <br />
-
-      <h2>Our Team</h2>
+    
+      <h2 id="ourteam">Our Team</h2>
+      <br/>
       <div className="bios">
         <div className="bios1">
           <img src="../pics/kj.jpg" alt="SJ Pic" width="350" height="300" />
