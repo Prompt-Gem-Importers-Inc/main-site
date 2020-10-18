@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import ContactUs from "./ContactUs";
+
 
 function Navbar() {
   
@@ -8,10 +8,11 @@ function Navbar() {
     function handleContact() {
       history.push("/ContactUs");
     }
-  
+   const handleAboutUs = ()=> history.push("/AboutUs")
   return (
     <div>
-      <button type="button">About Us</button>
+      <button type="button">Home</button>
+      <button type="button" onClick={handleAboutUs}>About Us</button>
       <button type="button">Exhibitions</button>
       <button type="button" onClick={handleContact}>Contact Us</button>
       <button type="button">Inventory</button>

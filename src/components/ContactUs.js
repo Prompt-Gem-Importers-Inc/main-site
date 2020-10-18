@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import Home from "./HomeLogo";
 
 function ContactUs() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Home />
+      <h1>Hell World</h1>
     </div>
   );
 }

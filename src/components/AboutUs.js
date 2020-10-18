@@ -1,19 +1,13 @@
 import React, { useState } from "react";
 import "../style/body.scss";
 import "../style/bios.scss";
-import "../style/logoAndHeader.scss";
+
+import HomeLogo from "./HomeLogo";
 
 function AboutUs() {
   return (
     <div>
-      <div className="logo">
-        <img
-          src="../pics/Logo.png"
-          alt="Prompt Gem Logo"
-          width="400"
-          height="300"
-        />
-      </div>
+      <HomeLogo />
 
       <p className="header">
         <h2>
@@ -50,9 +44,9 @@ function AboutUs() {
       </p>
       <br />
       <br />
-    
+
       <h2 id="ourteam">Our Team</h2>
-      <br/>
+      <br />
       <div className="bios">
         <div className="bios1">
           <img src="../pics/kj.jpg" alt="SJ Pic" width="350" height="300" />
