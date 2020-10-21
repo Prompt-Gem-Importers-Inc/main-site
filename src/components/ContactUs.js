@@ -5,7 +5,7 @@ function ContactUs() {
   return (
     <div>
       <Home />
-      <h1>Hell World</h1>
+      <h1>I am Contact Us</h1>
     </div>
   );
 }

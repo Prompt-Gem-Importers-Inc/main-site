@@ -1,46 +1,41 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-
+import "../style/NavBar.scss";
 
 function Navbar() {
-  
-    let history = useHistory();
-    function handleContact() {
-      history.push("/ContactUs");
-    }
-   const handleAboutUs = ()=> history.push("/AboutUs")
+  let history = useHistory();
+  function handleContact() {
+    history.push("/ContactUs");
+  }
+  const handleAboutUs = () => history.push("/AboutUs");
+  const handleHome = () => history.push("/");
   return (
     <div>
-      <button type="button">Home</button>
-      <button type="button" onClick={handleAboutUs}>About Us</button>
-      <button type="button">Exhibitions</button>
-      <button type="button" onClick={handleContact}>Contact Us</button>
-      <button type="button">Inventory</button>
+      <ul>
+        <li>
+          <button type="button" onClick={handleContact}>
+            Contact Us
+          </button>
+        </li>
+        <li>
+          <button type="button">Inventory</button>
+        </li>
+        <li>
+          <button type="button">Exhibitions</button>
+        </li>
+        <li>
+          <button type="button" onClick={handleAboutUs}>
+            About Us
+          </button>
+        </li>
+        <li>
+          <button type="button" onClick={handleHome}>
+            Home
+          </button>
+        </li>
+      </ul>
     </div>
   );
 }
 
 export default Navbar;
-
-/**
- * 
- * 
- * import { useHistory } from "react-router-dom";
-
-function HomeButton() {
-  let history = useHistory();
-
-  function handleClick() {
-    history.push("/home");
-  }
-
-  return (
-    <button type="button" onClick={handleClick}>
-      Go home
-    </button>
-  );
-}
-
- * 
- * 
- */

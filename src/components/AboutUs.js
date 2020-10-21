@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../style/body.scss";
 import "../style/bios.scss";
-
+import SJ from "../pics/sj.jpeg";
+import KJ from "../pics/kj.jpg";
 import HomeLogo from "./HomeLogo";
 
 function AboutUs() {
@@ -49,7 +50,7 @@ function AboutUs() {
       <br />
       <div className="bios">
         <div className="bios1">
-          <img src="../pics/kj.jpg" alt="SJ Pic" width="350" height="300" />
+          <img src={KJ} alt="KJ Pic" width="350" height="300" />
           <p>
             <h2>Mr. Kailash Jhalani</h2>
             <h4>President</h4>
@@ -66,7 +67,7 @@ function AboutUs() {
           </p>
         </div>
         <div className="bios2">
-          <img src="../pics/sj.jpeg" alt="SJ Pic" width="350" height="300" />
+          <img src={SJ} alt="SJ Pic" width="350" height="300" />
           <h2>Mr. Shailesh Jhalani</h2>
           <h4>Vice President</h4>
           <p>

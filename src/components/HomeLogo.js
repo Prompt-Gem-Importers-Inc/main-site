@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 import MyImage from "../pics/Logo.png";
-import "../style/logoAndHeader.scss";
+// import "../style/logoAndHeader.scss";
 function HomeLogo() {
   let history = useHistory();
   function handleHome() {
