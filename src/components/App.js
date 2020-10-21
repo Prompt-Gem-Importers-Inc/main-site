@@ -4,7 +4,9 @@ import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import Home from "./Home";
+import Inventory from "./Inventory";
 import "../style/logoAndHeader.scss";
+import Exhibitions from "./Exhibitions";
 function App() {
   return (
     <Router>
@@ -20,6 +22,12 @@ function App() {
           <Route exact path="/ContactUs">
             <ContactUs />
           </Route>
+          <Route exact path="/Inventory">
+            <Inventory />
+          </Route>
+          <Route exact path="/Exhibitions">
+            <Exhibitions />
+          </Route>
         </Switch>
       </div>
     </Router>
@@ -27,4 +35,3 @@ function App() {
 }
 
 export default App;
-

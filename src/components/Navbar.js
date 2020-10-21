@@ -9,6 +9,8 @@ function Navbar() {
   }
   const handleAboutUs = () => history.push("/AboutUs");
   const handleHome = () => history.push("/");
+  const handleInventory = () => history.push("/Inventory");
+  const handleExhitions = () => history.push("/Exhibitions");
   return (
     <div>
       <ul>
@@ -18,10 +20,14 @@ function Navbar() {
           </button>
         </li>
         <li>
-          <button type="button">Inventory</button>
+          <button type="button" onClick={handleInventory}>
+            Inventory
+          </button>
         </li>
         <li>
-          <button type="button">Exhibitions</button>
+          <button type="button" onClick={handleExhitions}>
+            Exhibitions
+          </button>
         </li>
         <li>
           <button type="button" onClick={handleAboutUs}>
