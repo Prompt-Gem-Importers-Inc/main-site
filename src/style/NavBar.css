@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+  li {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  button {
+    width: 30%;
+    padding: 15px 15px;
+    background-color: rgb(246, 168, 140);
+    font-size: 25px;
+    border-color: white;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  li {
+    display: flex;
+    flex-direction: row;
+
+    float: right;
+  }
+  button {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(246, 168, 140);
+    font-size: larger;
+    border-color: white;
+  }
+}
