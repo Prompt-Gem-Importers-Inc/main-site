@@ -5,7 +5,7 @@ import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import Home from "./Home";
 import Inventory from "./Inventory";
-import "../style/logoAndHeader.scss";
+
 import Exhibitions from "./Exhibitions";
 function App() {
   return (

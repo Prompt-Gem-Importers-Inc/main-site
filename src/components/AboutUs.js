@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../style/body.scss";
-import "../style/bios.scss";
+import "../style/body.css";
+
 import SJ from "../pics/sj.jpeg";
 import KJ from "../pics/kj.jpg";
 import HomeLogo from "./HomeLogo";
@@ -45,6 +45,7 @@ function AboutUs() {
       </p>
       <br />
       <br />
+      <br />
 
       <h2 id="ourteam">Our Team</h2>
       <br />
@@ -57,13 +58,13 @@ function AboutUs() {
             In October 1974 Mr. Jhalani along with his wife Lalita arrived in
             New York and decided to open a business in the city, which was one
             of the leading diamond centers of the world. In 1975, he opened a
-            new company called <b>PROMPT GEM IMPORTERS</b>
-            INC and began doing business in the precious and semi – precious
-            stones market. He was determined to succedd and did not shy away
-            from hard work. He brought all his entrepreneurial skills and
-            developed the company slowly but surely and today Prompt Gem
-            Importers Inc. is a well respected diamond, colored stone and
-            jewellery Company in New York City.
+            new company called <b>PROMPT GEM IMPORTERS INC</b> and began doing
+            business in the precious and semi – precious stones market. He was
+            determined to succedd and did not shy away from hard work. He
+            brought all his entrepreneurial skills and developed the company
+            slowly but surely and today Prompt Gem Importers Inc. is a well
+            respected diamond, colored stone and jewellery Company in New York
+            City.
           </p>
         </div>
         <div className="bios2">

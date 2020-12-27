@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/inventory.scss";
+import "../style/inventory.css";
 import HomeLogo from "./HomeLogo";
 
 function Inventory() {

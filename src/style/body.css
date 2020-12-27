@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  font-family: Book Antiqua;
+  margin: 70;
+}
+.logo {
+  margin: auto;
+  width: 50%;
+  padding-left: 400;
+}
+
+.header {
+  width: 70%;
+  font-size: 20;
+  line-height: 1.5;
+  padding-left: 200;
+  text-align: justify;
+}
+.bios {
+  padding-left: 130;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  margin-right: 70;
+  line-height: 1.5;
+  font-size: large;
+}
+
+.bios2 {
+  padding-left: 70;
+  margin-right: 30;
+}
+
+#ourteam {
+  padding-left: 150;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import "../style/NavBar.scss";
+import "../style/NavBar.css";
 
 function Navbar() {
   let history = useHistory();
@@ -24,6 +24,7 @@ function Navbar() {
             Inventory
           </button>
         </li>
+        
         <li>
           <button type="button" onClick={handleExhitions}>
             Exhibitions
